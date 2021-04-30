@@ -24,9 +24,6 @@ import {
   esconderMensagem
 } from '../../store/mensagensReducer'
 
-
-
-
 const useStyles = makeStyles(theme => ({
   root: {
     padding: theme.spacing(3)

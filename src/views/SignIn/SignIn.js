@@ -213,7 +213,7 @@ const SignIn = props => {
 
 
   const hasError = field =>
-  formState.touched[field] && formState.errors[field] ? true : false;
+    formState.touched[field] && formState.errors[field] ? true : false;
 
   // render(){
 
@@ -273,7 +273,7 @@ const SignIn = props => {
 
 
             <div className={classes.contentBody}>
-             
+
               <form
                 className={classes.form}
                 onSubmit={handleSignIn}
@@ -342,7 +342,7 @@ const SignIn = props => {
                   color="textSecondary"
                   variant="body1"
                 >
-                  
+
                   Não tenho conta | {' '}
                   <Link
                     component={RouterLink}
@@ -357,7 +357,7 @@ const SignIn = props => {
                   color="textSecondary"
                   variant="body1"
                 >
-                  
+
                   Esqueci minha senha | {' '}
                   <Link
                     component={RouterLink}
